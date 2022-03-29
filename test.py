@@ -1,10 +1,8 @@
-# print('Hello World!')
 import matplotlib.pyplot as plt
 import random
 from datetime import datetime
 import math
 
-# start = datetime.now()
 
 # Parameters for the experiment
 data_size = 1000
@@ -31,12 +29,6 @@ def init(data_size):
 def average(nums):
 	return sum(nums) / len(nums)
 
-# data.sort()
-
-# end = datetime.now()
-# print(str(end-start)[5:])
-# print(data)
-# print(target)
 
 # Draw a histogram graph and present distribution of smaple data
 # plt.hist(data, bins = 20)
@@ -74,6 +66,11 @@ def linear_search(nums, target):
 			count_linear_search += 1
 	return -1, count_linear_search
 
+
+# start, end variables for time calculation
+# start = datetime.now()
+# end = datetime.now()
+# print(str(end-start)[5:])
 
 
 # run linear search and binary search
